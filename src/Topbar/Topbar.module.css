@@ -1,0 +1,25 @@
+.HeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 5%;
+}
+
+.logo {
+    width: 130px;
+}
+
+.Hamburger {
+    display: none;
+}
+
+@media(max-width:600px) {
+    .Button {
+        display: none;
+    }
+    .Hamburger {
+        display: inline;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}

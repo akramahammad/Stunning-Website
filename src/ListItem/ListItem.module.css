@@ -1,0 +1,50 @@
+.ListColourDiv {
+    width: 20px;
+    height: 10px;
+    margin: 0 15px 0 30px;
+    border-radius: 8px;
+}
+
+.ListItem {
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    background-color: #FAFAFA;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.Active {
+    box-shadow: 0 0 30px 5px #ccc;
+}
+
+.ListItem>div {
+    display: flex;
+    align-items: center;
+}
+
+.TickIcon {
+    margin: 0 20px 0 15px;
+}
+
+.ListItem span {
+    color: #000;
+    display: inline-block;
+}
+
+.Pink {
+    background-color: #FFCFCF;
+}
+
+.UserIcon {
+    margin: 0 30px;
+}
+
+.ListItem p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Datetext {
+    color: #ccc;
+}

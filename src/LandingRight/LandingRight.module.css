@@ -1,0 +1,15 @@
+.LandingImage {
+    width: 100%;
+}
+
+.LandingRight {
+    padding: 5%;
+}
+
+@media(max-width:600px) {
+    .LandingRight {
+        width: 100%;
+        padding: 0;
+        margin: 5% auto;
+    }
+}

@@ -1,0 +1,19 @@
+.Menuitem {
+    margin: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ccc;
+    padding-bottom: 3px;
+}
+
+.Menuitem:hover {
+    color: #000;
+    cursor: pointer;
+    border-bottom: 2px solid #5344BF;
+}
+
+@media(max-width:600px) {
+    .Menuitem {
+        display: none;
+    }
+}

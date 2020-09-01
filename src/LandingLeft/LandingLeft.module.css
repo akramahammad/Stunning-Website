@@ -1,0 +1,45 @@
+.LandingLeft {
+    width: 45%;
+    margin-right: 2%;
+}
+
+.LandingLeft h1 {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.LandingLeft span {
+    color: #5344BF;
+}
+
+.LandingLeft>p {
+    color: #979694;
+    font-weight: 600;
+    line-height: 1.75;
+    margin: 0;
+}
+
+.ArrowDiv {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    margin-top: 10px;
+}
+
+.ArrowDiv img {
+    margin-left: 25px;
+}
+
+.ListDiv {
+    margin-top: 30px
+}
+
+@media(max-width:600px) {
+    .LandingLeft {
+        width: 80%;
+        margin-right: 0px;
+    }
+    .ListDiv {
+        display: none;
+    }
+}
